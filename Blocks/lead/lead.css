@@ -1,0 +1,84 @@
+@import url(./__caption/lead__caption.css);
+@import url(./__image/lead__image.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__title/lead__title.css);
+
+.lead {
+  margin: auto;
+  margin-top: 48px;
+  max-width: 985px;
+  max-height: 950px;
+}
+
+@media screen and (max-width:1024px) {
+  .lead {
+    margin-left: 4.9%;
+    margin-right: 4.9%;
+  }
+  .lead__title {
+    padding-bottom: 46px;
+  }
+  .lead__subtitle {
+    padding-bottom: 65px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .lead {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .lead__title {
+    padding-bottom: 48px;
+    max-width: 720px;
+    max-height: 184px;
+    margin-left: 3.2%;
+    margin-right: 3.2%;
+  }
+  .lead__subtitle {
+    padding-bottom: 78px;
+    max-width: 650px;
+    max-height: 65px;
+  }
+  .lead__caption {
+    margin-left: 3.2%;
+  }
+}
+
+@media screen and (max-width:718px) {
+  .lead__title {
+    padding-bottom: 8px;
+    font-size: 2.55rem;
+    line-height: 2.8rem;
+    max-height: 96px;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .lead__title {
+    padding-bottom: 8px;
+    font-size: 2.55rem;
+    line-height: 2.8rem;
+    max-height: 96px;
+  }
+  .lead__subtitle {
+    padding-bottom: 31px;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    max-width: 340px;
+    max-height: 48px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .lead__title {
+    max-width: 288px;
+    max-height: 96px;
+    padding-bottom: 8px;
+  }
+  .lead__subtitle {
+    padding-bottom: 32px;
+    max-width: 288px;
+    max-height: 48px;
+  }
+} 

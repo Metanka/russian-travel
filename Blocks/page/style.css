@@ -1,0 +1,11 @@
+@import url(../header/header.css);
+@import url(../lead/lead.css);
+@import url(../../font-Inter-\(Web\/inter.css);
+@import url(../intro/intro.css);
+
+
+.page {
+  background-color: #2A2C2F;
+  font-family: Inter;
+  max-width: 1440px;
+}

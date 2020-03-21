@@ -1,0 +1,15 @@
+.header__lang {
+font-style: normal;
+font-weight: normal;
+font-size: 1.5rem;
+line-height: 1.5rem;
+text-align: end;
+color: white;
+text-decoration-line: underline;
+align-items: flex-end;
+}
+
+.header__lang:last-child {
+  margin-left: 18px;
+  text-decoration: none;
+}
