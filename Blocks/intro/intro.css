@@ -1,6 +1,72 @@
-@import
+@import url(./__content-row/intro__content-row.css);
+@import url(./__text/intro__text.css);
+@import url(./__title/intro__title.css);
 
 .intro {
-  max-width: 720px;
-  
+  max-width: 683px;
+  margin-left: 16%;
+  margin-top: 80px;
 }
+
+@media screen and (max-width:1280px) {
+  .intro {
+    margin-left: 11.8%;
+  }
+}
+@media screen and (max-width:1024px) {
+  .intro {
+    margin-left: 4.8%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .intro {
+    margin-left: 3.2%;
+  }
+}
+
+@media screen and (max-width:718px) {
+  .lead__title {
+    padding-bottom: 8px;
+    font-size: 2.55rem;
+    line-height: 2.8rem;
+    max-height: 96px;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .intro {
+    margin-left: 4.5%;
+  }
+  .intro__title {
+    padding-bottom: 31px;
+    font-size: 2rem;
+    line-height: 2.1875rem;
+    max-width: 220px;
+    padding-bottom: 32px;
+  }
+  .intro__content-row {
+    font-size: 1rem;
+    line-height: 1.6875rem;
+    max-width: 340px;
+    padding-bottom: 32px;
+  }
+  .intro__text {
+    font-size: 0.75rem;
+    line-height: 1.1875rem;
+   
+  }
+}
+
+@media screen and (max-width:320px) {
+  .lead__title {
+    max-width: 288px;
+    max-height: 96px;
+    padding-bottom: 8px;
+  }
+  .lead__subtitle {
+    padding-bottom: 32px;
+    max-width: 288px;
+    max-height: 48px;
+  }
+} 
