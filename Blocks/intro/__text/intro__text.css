@@ -1,8 +1,12 @@
+@import url(./_item/intro__text_item.css);
+
 .intro__text {
   color: white;
   font-size: 0.8125rem;
   line-height: 1.25rem;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style-type: none;
 }
 

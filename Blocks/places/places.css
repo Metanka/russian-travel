@@ -1,0 +1,115 @@
+@import url(./__image/place__image.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__website/place__website.css);
+@import url(./place/place.css);
+@import url(./__title/place__title.css);
+@import url(./__header/place__header.css);
+@import url(./__content/place__content.css);
+@import url(./__text/place__text.css);
+
+.places {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+}
+@media screen and (max-width:1024px) {
+  .place {
+    max-width: 928px;
+
+  }
+  .place__image {
+    width: 440px;
+    height: 440px;
+  }
+  .place__paragraph:last-child {
+    margin-top: 32px;
+  }
+  .place__title {
+    margin-right: 2%;
+  }
+  .place__header {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 964px) {
+  .place {
+    max-width: 720px;
+  }
+  .place__image {
+    width: 340px;
+    height: 340px;
+    margin-right: 28px;
+  }
+  .place__title {
+    font-size: 2.625rem;
+    line-height: 2.875rem;
+    max-width: 300px;
+    margin-right: 10%;
+  }
+  .place__paragraph {
+    font-size: 1rem;
+    line-height: 1.6875rem;
+  }
+  .place__paragraph:last-child {
+    margin-top: 24px;
+  }
+  .place__header {
+    height: 104px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .places {
+    max-width: 375px;
+    margin: auto;
+    margin-bottom: 48px;
+  }
+  .place {
+    max-width: 375px;
+  }
+  .place__image {
+    width: 375px;
+    height: 375px;
+    padding-bottom: 24px;
+    margin: 0;
+  }
+  .place__header {
+    height: 40px;
+    margin-left: 16px;
+  }
+  .place__title {
+    font-size: 2rem;
+    line-height: 2.1875rem;
+    min-width: 280px;
+    margin-bottom: 32px;
+    margin: 0;
+  }
+  .place__website{
+    display: none;
+  }
+  .place__paragraph {
+    font-size: 1rem;
+    line-height: 1.6875rem;
+    margin: auto;
+  }
+  .place__content {
+    flex-direction: column;
+  }
+  .place__text {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  
+}
+@media screen and (max-width: 370px) {
+  .place {
+    max-width: 320px;
+    max-height: 983px;
+  }
+  .place__image {
+    width: 320px;
+    height: 320px;
+  }
+}

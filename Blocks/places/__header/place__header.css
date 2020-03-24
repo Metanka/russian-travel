@@ -1,0 +1,7 @@
+.place__header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  margin-bottom: 60px;
+}
