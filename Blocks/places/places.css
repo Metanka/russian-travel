@@ -64,7 +64,6 @@
   .places {
     max-width: 375px;
     margin: auto;
-    margin-bottom: 48px;
   }
   .place {
     max-width: 375px;
@@ -101,12 +100,17 @@
     margin-left: 16px;
     margin-right: 16px;
   }
-  
+  .place:last-child {
+    margin-bottom: 64px;
+  }
 }
 @media screen and (max-width: 370px) {
   .place {
     max-width: 320px;
     max-height: 983px;
+  }
+  .place:last-child {
+    margin-bottom: 64px;
   }
   .place__image {
     width: 320px;

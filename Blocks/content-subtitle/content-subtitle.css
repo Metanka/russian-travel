@@ -1,0 +1,23 @@
+.content-subtitle {
+  color: white;
+  padding: 0;
+  font-size: 1.5rem;
+  line-height: 2.1875rem;
+  max-width: 640px;
+  text-align: center;
+  margin: auto;
+  padding: 48px 0 72px 0;
+}
+
+@media screen and (max-width: 900px) {
+  .content-subtitle {
+    padding: 24px 0 56px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .content-subtitle {
+    font-size: 1rem;
+    line-height: 1.4375rem;
+    padding: 16px 16px 48px 16px;
+  }
+}

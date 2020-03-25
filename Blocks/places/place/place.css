@@ -6,3 +6,7 @@
   flex-direction: column;
   margin-bottom: 72px;
 }
+
+.place:last-child {
+  margin-bottom: 102px;
+}

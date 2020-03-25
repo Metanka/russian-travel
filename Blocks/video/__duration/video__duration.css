@@ -1,0 +1,8 @@
+.video__duration {
+  font-size: 0.75rem;
+  line-height: 0.8125rem;
+  position: absolute;
+  left:  30px;
+  top: 165px;
+  color: white;
+}

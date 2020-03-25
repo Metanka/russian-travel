@@ -4,6 +4,9 @@
 @import url(../intro/intro.css);
 @import url(../photo-grid/photo-grid.css);
 @import url(../places/places.css);
+@import url(../video/video.css);
+@import url(../content-subtitle/content-subtitle.css);
+@import url(../content-title/content-title.css);
 
 body {
   margin: 0;
