@@ -3,8 +3,8 @@
 @import url(./__title/intro__title.css);
 
 .intro {
-  max-width: 683px;
-  margin-left: 16%;
+  max-width: 983px;
+  margin: auto;
   margin-top: 80px;
 }
 
