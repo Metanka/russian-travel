@@ -2,6 +2,7 @@
   width: 583px;
   height: 323px;
   z-index: -1;
+  background-color: black;
 }
 
 .video__image:hover {

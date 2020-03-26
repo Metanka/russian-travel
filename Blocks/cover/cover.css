@@ -1,0 +1,71 @@
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
+@import url(./cover-bg/cover-bg.css);
+
+.cover {
+  margin: auto;
+  width: 1184px;
+  height: 594px;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-bottom: 160px;
+}
+
+@media screen and (max-width: 1200px) {
+  .cover {
+    width: 99%;
+    height: 562px;
+  }
+  .cover__title {
+    max-width: 550px;
+    margin: auto;
+    margin-top: 211px;
+    margin-bottom: 8%;
+  }
+}
+@media screen and (max-width: 890px) {
+  .cover {
+    width: 100%;
+    height: 35.7vh;
+    margin-bottom: 102px;
+  }
+  .cover__title {
+    margin-top: 165px;
+    margin-bottom: 5.85%;
+  }
+  @media screen and (max-width: 650px) {
+    .cover {
+      width: 100%;
+      height: 19.4vh;
+      margin-bottom: 64px;
+    }
+    .cover__title {
+      max-width: 250px;
+      font-size: 2rem;
+      line-height: 2.1875rem;
+      margin-top: 104px;
+      margin-bottom: 7px;
+    }
+    .cover__subtitle {
+      font-size: 0.875rem;
+      line-height: 1.0625rem;
+      max-width: 343px;
+    }
+  }
+
+@media screen and (max-width: 340px) {
+  .cover {
+    height: 216px;
+ }
+  .cover__title {
+    margin-top: 64px;
+    margin-bottom: 7px;
+  }
+  .cover__subtitle {
+    max-width: 288px;
+  }
+}
+
