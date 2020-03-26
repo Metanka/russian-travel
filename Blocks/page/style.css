@@ -9,6 +9,7 @@
 @import url(../content-title/content-title.css);
 @import url(../comments/comments.css);
 @import url(../cover/cover.css);
+@import url(../footer/footer.css);
 
 body {
   margin: 0;
