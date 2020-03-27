@@ -1,4 +1,4 @@
-@import url(../vendor/normalize.css);
+@import url(../../vendor/normalize.css);
 @import url(../header/header.css);
 @import url(../lead/lead.css);
 @import url(../../Inter/inter.css);
@@ -11,6 +11,10 @@
 @import url(../comments/comments.css);
 @import url(../cover/cover.css);
 @import url(../footer/footer.css);
+@import url(../comment/comment.css);
+@import url(../comments-container/comments-container.css);
+@import url(../cover-bg/cover-bg.css);
+@import url(../place/place.css);
 
 .page {
   background-color: #2A2C2F;
