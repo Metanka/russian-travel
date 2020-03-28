@@ -1,7 +1,20 @@
+
 .video__title-bg {
+  width: 583px;
+  height: 323px;
+  display: block;
+  border-radius: 2%;
   position: relative;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
 }
 
 .video__title-bg:last-child {
   margin-left: 1.55%;
+}
+
+.video__title-bg:hover .video__image {
+  opacity: 0.8;
 }

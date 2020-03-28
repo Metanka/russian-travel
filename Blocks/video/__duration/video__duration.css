@@ -1,11 +1,13 @@
 .video__duration {
   font-size: 0.75rem;
   line-height: 0.8125rem;
-  position: absolute;
-  left:  30px;
-  top: 165px;
   color: white;
   font-weight: 500;
   margin: 0;
   padding: 0;
+  margin-top: 94px;
+  z-index: 2;
+}
+.video__duration:hover {
+  opacity: 0.8;
 }

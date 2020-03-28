@@ -4,10 +4,9 @@
   padding: 0;
   font-size: 2.25rem;
   line-height: 2.4375rem;
-  position: absolute;
-  left:  30px;
-  top: 189px;
   color: white;
   max-width: 322px;
   font-weight: 900;
+  margin-top: 12px;
+  z-index: 2;
 }

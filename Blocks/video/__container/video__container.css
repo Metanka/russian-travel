@@ -1,6 +1,9 @@
 .video__container {
+  width: 1184px;
+  height: 323px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: auto;
 }
 
