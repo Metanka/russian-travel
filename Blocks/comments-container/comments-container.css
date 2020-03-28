@@ -3,3 +3,15 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 900px) {
+  .comments-container {
+  flex-wrap: wrap;
+  margin-top: 18px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .comments-container {
+    margin-top: 10px;
+  }
+}

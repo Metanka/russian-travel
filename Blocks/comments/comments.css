@@ -1,72 +1,31 @@
-
-
 .comments {
   max-width: 1184px;
   margin: auto;
   padding-bottom: 102px;
 }
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1180px) {
   .comments {
     max-width: 928px;
   }
-  .comment {
-    max-width: 296px;
+}
+@media screen and (max-width: 1000px) {
+  .comments {
+    max-width: 880px;
   }
 }
 @media screen and (max-width: 900px) {
   .comments {
     max-width: 660px;
   }
-  .comment {
-    max-width: 382px;
-    margin: auto;
-    margin-bottom: 48px;
-  }
-  .comment:last-child {
-    margin-bottom: 0;
-  }
-  .comments-container {
-    flex-wrap: wrap;
-    margin-top: 18px;
-  }
-  .comment__author {
-    margin: auto;
-    order: 2;
-    margin-bottom: 24px;
-    font-size: 1rem;
-    line-height: 1.4375rem;
-  }
-  .comment__image {
-    margin: auto;
-    order: 1;
-    margin-bottom: 16px;
-  }
-  .comment__quote {
-    margin: 0;
-    order: 3;
-    font-size: 1rem;
-    line-height: 1.4375rem;
-  }
 }
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .comments {
-    padding-bottom: 48px;
-  }
-  .comments-container {
-    flex-wrap: wrap;
-    margin-top: 18px;
-  }
-  .comment {
     max-width: 343px;
   }
 }
-@media screen and (max-width: 340px) {
-  .comments-container {
-    margin-top: 10px;
-  }
-  .comment {
+@media screen and (max-width: 365px) {
+  .comments {
     max-width: 288px;
   }
 }

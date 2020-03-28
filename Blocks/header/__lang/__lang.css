@@ -1,4 +1,4 @@
-@import url(./_underline/header__lang_underline.css);
+@import url(./_active/header__lang_active.css);
 
 .header__lang {
 font-style: normal;
@@ -9,8 +9,10 @@ text-align: end;
 color: white;
 align-items: flex-end;
 margin-left: 18px;
+text-decoration-line: none;
 }
 
-.header__lang:last-child {
-  text-decoration-line: none;
+.header__lang:hover {
+  color: #AAA;
 }
+

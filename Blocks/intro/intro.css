@@ -21,22 +21,13 @@
 
 @media screen and (max-width:768px) {
   .intro {
-    margin-left: 3.2%;
+    margin: 0 24px 0 24px;
   }
 }
 
-@media screen and (max-width:718px) {
-  .lead__title {
-    padding-bottom: 8px;
-    font-size: 2.55rem;
-    line-height: 2.8rem;
-    max-height: 96px;
-  }
-}
-
-@media screen and (max-width:375px) {
+@media screen and (max-width:390px) {
   .intro {
-    margin-left: 4.5%;
+    margin: 0 16px 0 16px;
   }
   .intro__title {
     padding-bottom: 31px;
@@ -58,15 +49,3 @@
   }
 }
 
-@media screen and (max-width:320px) {
-  .lead__title {
-    max-width: 288px;
-    max-height: 96px;
-    padding-bottom: 8px;
-  }
-  .lead__subtitle {
-    padding-bottom: 32px;
-    max-width: 288px;
-    max-height: 48px;
-  }
-} 
