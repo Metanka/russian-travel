@@ -4,6 +4,7 @@
   background-color:black;
   z-index: -1;
   position: absolute;
+  object-fit: cover;
 }
 
 .cover-bg__link:hover .cover-bg__image {

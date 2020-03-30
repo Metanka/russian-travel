@@ -5,9 +5,6 @@
   font-weight: 500;
   margin: 0;
   padding: 0;
-  margin-top: 94px;
+  margin-top: auto;
   z-index: 2;
-}
-.video__duration:hover {
-  opacity: 0.8;
 }

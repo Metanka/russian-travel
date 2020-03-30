@@ -6,12 +6,12 @@
   max-width: 640px;
   text-align: center;
   margin: auto;
-  padding: 48px 0 72px 0;
+  padding: 48px 16px 72px 16px;
 }
 
 @media screen and (max-width: 900px) {
   .content-subtitle {
-    padding: 24px 0 56px 0;
+    padding: 24px 16px 56px 16px;
   }
 }
 @media screen and (max-width: 450px) {

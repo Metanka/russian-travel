@@ -21,11 +21,13 @@
     width: 456px;
     height: 288px;
   }
-  .video__duration {
-    margin-top: 54px;
+  
+}
+@media screen and (max-width:1060px) {
+  .video__subtitle {
+    margin-bottom: 35px;
   }
 }
-
 @media screen and (max-width:1000px) {
   .video__container {
     width: 720px;
@@ -36,16 +38,10 @@
     height: 200px;
     padding-left: 25px;
   }
-  .video__logo {
+  .video__icon {
     margin-top: 25px;
   }
-  .video__duration {
-    margin-top: 17px;
-  } 
-
-  .video__title-bg:first-child .video__duration {
-    margin-top: 36px;
-  }
+  
   .video__title {
     margin-top: 8px;
     font-size: 1.5rem;
@@ -55,7 +51,8 @@
   .video__subtitle {
     font-size: 0.875rem;
     line-height: 0.9375rem;
-    margin-top: 12px;
+    margin-top: 8px;
+    margin-bottom: 24px;
   }
 }
 
@@ -85,18 +82,15 @@
     margin-top: 24px;
     margin-left: 24px;
   }
-  .video__duration {
-    margin-top: 17px;
-    padding-left: 24px;
-  } 
-  .video__title-bg:first-child .video__duration {
-    margin-top: 41px;
-  }
   .video__title {
     padding-left: 24px;
   }
   .video__subtitle {
     padding-left: 24px;
+    margin-top: 2px;
+  }
+  .video__duration {
+    margin-left: 24px;
   }
 }
 
@@ -112,13 +106,6 @@
   .video__icon {
     margin-top: 16px;
     margin-left: 16px;
-  }
-  .video__duration {
-    margin-top: 23px;
-    padding-left: 16px;
-  } 
-  .video__title-bg:first-child .video__duration {
-    margin-top: 49px;
   }
   .video__title {
     padding-left: 16px;
